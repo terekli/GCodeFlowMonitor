@@ -21,6 +21,9 @@ Modify the value of `VperE` to the volume of extruded ink (μL) per unit of E st
 
 This value is dictated by your printer hardware configuraiton.
 
+## Important Note
+When you modify the "line thickness", "line width", and or "flow" parameter in your slicer software, the corresponding flow rate in your GCode will change!
+
 ## Calculating `VperE`
 For piston based printer:
 
@@ -33,3 +36,4 @@ For piston based printer:
 For infinite-screw based printer please check your print nozzle manual on the extrusion volume per rotation, and correlate with your step rate configuration.
 
 ## Sample Output:
+<img align="left" alt="print" width="500" src="3DBenchy_flow_rate.jpg">
